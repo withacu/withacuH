@@ -2,7 +2,7 @@
 <html lang = "ko">
     <head>
         <meta charset="UTF-8">
-        <title>ACU - ${title}</title>
+        <title>ACU - etc</title>
         <link rel="stylesheet" href="../main.css">
         <!-- JSdelivr -->
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -27,12 +27,18 @@
             <div class="login">PW :</div> <input type="password" id="pw"  maxlength="8" placeholder="8글자 제한"><br>
             <input type="submit" value="submit"/>
             <input type="button" value="sign up"/>
+                <fieldset>
+                    <legend>sign up</legend>
 
-                <sign_up>
-                    pattern = "\d{2}\.\d{2}\.\d{2}"
-                    title = "99.02.10 형식으로 입력해주세요"/><br><br>
-                </sign_up>
-
+                </fieldset>
+                <legend><strong>sign up</strong></legend>
+                <div class="login">ID :</div>
+                <input type="text" id="id" maxlength="8" placeholder="8글자 제한"><br>
+                <div class="login">PW :</div>
+                <input type="password" id="pw"  maxlength="8" placeholder="8글자 제한"><br>
+                <div class="login">BD :</div>
+                <input type="birthday" id="bd" pattern = "\d{2}\.\d{2}\.\d{2}" title = "99.02.10 형식으로 입력해주세요"/><br><br>>
+                <input type="submit" value="submit"/>
             <fieldset style="height: auto;">
                 <p>
                     Read txt
